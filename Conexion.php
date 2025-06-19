@@ -40,7 +40,7 @@ echo "Error de conexión: " . $e->getMessage();
 // pero podemos cerrarla explícitamente si queremos
 $conexion = null;
 */
-require_once 'config.php';
+require_once ('config.php');
 function conectar() {
 try {
 $conexion = new PDO(
@@ -55,5 +55,4 @@ echo "Error de conexión: " . $e->getMessage();
 return null;
 }
 }
-?>
 ?>
