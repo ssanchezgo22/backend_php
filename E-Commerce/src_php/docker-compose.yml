@@ -1,0 +1,15 @@
+services:
+  web:
+    image: php:8.2-apache
+    container_name: php-apache-web
+    ports:
+      - "80:80"
+    volumes:
+      - ./php-app:/var/www/html #
+    restart: unless-stopped
+    networks:
+      - app-network 
+
+networks:
+  app-network:
+    driver: bridge
