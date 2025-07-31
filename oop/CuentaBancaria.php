@@ -56,7 +56,7 @@ class CuentaBancaria{
     }
 }
 
-$cuenta = new CuentaBancaria("Rodolfo", 1000);
+$cuenta = new CuentaBancaria("sebastian ", 1000);
 $detalles = $cuenta->obtenerDetalles();
 
 echo "Cuenta Numero: {$detalles['numeroCuenta']} \n";
