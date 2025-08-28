@@ -1,0 +1,14 @@
+<?php
+
+Class Atracciones {
+    private $nombre;
+    private $capacidad;
+    private $velocidad;
+}
+
+public function __construct($name, $capacidad, $velocidad){
+    this -> nombre = $nombre;
+    this -> capacidad = $capacidad;
+    this -> velocidad = $velocidad;
+}
+
