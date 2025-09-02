@@ -1,6 +1,0 @@
-<?php 
-
-class Ninos extends Atracciones {
-    public function __construct($nombre, $capacidad, $velocidad) {
-        parent::__construct($nombre, $capacidad, $velocidad);
-    }
